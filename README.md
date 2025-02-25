@@ -12,12 +12,16 @@ This is a simple **Flask** application that connects to a **MySQL** database. Th
 ## 📦 Setup & Run
 
 ### 1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/docker-flask-app.git
-
+```sh
+git clone git@github.com:hussienzietoon/Flask-containerized-app.git
 cd docker-flask-app
+```
 ### 2️⃣ Build and Start the Containers
+```sh
 docker-compose up --build
+```
 ### 3️⃣ Open the App in Your Browser
+```sh
 Once the containers are running, open:
 http://localhost:5000
+```
